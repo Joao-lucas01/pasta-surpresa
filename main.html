@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Para minha deusa</title>
+        <link rel="shortcut icon" href="assets/css/images/favicon.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="main.css"/>
+		<link rel="stylesheet" href="font-awesome-animation.min.css">
+
+	</head>
+	<body class="loading">
+		<!-- Música de Fundo -->
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+				<!-- Header -->
+				<header id="header">
+				    <h1>Don't forget that...</h1>
+				    <p>I will still love you when you are no longer young and beautiful</p>
+					<p>(Although for me it's quite impossible you lose your beauty S2)</p>
+				    <nav>
+				        <ul>
+				            <li class="audio"><audio src="yab.mp3" controls autoplay loop></audio></li>
+				        </ul>
+				    </nav>
+				</header>
+				<!-- Footer -->
+				<footer id="footer">
+					<a <p>João Lucas e Isabelle</p></a>
+				</footer>
+            </div>
+		</div>
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
